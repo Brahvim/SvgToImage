@@ -22,8 +22,7 @@ One instance of the license itself is available at https://raw.githubusercontent
 # Things needed before installation:
 Please make sure you have Java installed! The Oracle JDK you would usually get from https://java.com/download *should* work, but I recommend using OpenJDK binaries from https://adoptium.net/temurin/releases.
 
-This should fix the application not starting up at all.
-
+This should fix issues where the application does not start at all.
 
 **Please make sure the "Package Type" is "JRE" and you have chosen correct settings for your computer!**
 ![Adoptium website](https://user-images.githubusercontent.com/69293652/194105344-23ead1ee-a611-45f9-90c1-e652f3764f86.png)
