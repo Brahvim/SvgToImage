@@ -10,7 +10,9 @@ Processing Libraries made by very the friendly community this program puts to us
 This was probably *the second time* in my life I wrote actual software that could be used by *the common man* on a day-to-day basis.<br>
 GPLv3 is the used license!
 
-# Plans
+# How to use:
 
+
+# Plans:
 - CLI Mode! Since I provide the application as a single JAR file and not as a [Launch4j](https://launch4j.sourceforge.net/) wrapped executable, 
   I can *actually* make a command line version, code for which is can bee seen in [`CliMode.pde`](https://github.com/Brahvim/SvgToImage/blob/main/CliMode.pde)
