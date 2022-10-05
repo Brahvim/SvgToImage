@@ -12,7 +12,7 @@ void draw() {
   if (appState == AppState.DISPLAY && pappState == AppState.EMPTY) {
     optionsForm = optionsFormBuild.run();
 
-    optionsForm.getById("checkbox_style").setValue(new Boolean(false));
+    optionsForm.getById("checkbox_style").setValue(Boolean.FALSE);
     optionsForm.getById("textarea_width").setValue("400");
     optionsForm.getById("textarea_height").setValue("400");
     optionsForm.getById("selection_format").setValue("PNG");

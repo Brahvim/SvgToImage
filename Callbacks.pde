@@ -48,7 +48,7 @@ void dropEvent(DropEvent p_evt) {
 
   appState = AppState.DISPLAY;
   drawSvgToClearedBuffer(svg, render);
-  optionsForm.getById("checkbox_style").setValue(new Boolean(false));
+  optionsForm.getById("checkbox_style").setValue(Boolean.FALSE);
 
   surface.setSize(render.width, render.height);
   setWindowsInPlace();

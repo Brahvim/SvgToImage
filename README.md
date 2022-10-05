@@ -2,8 +2,8 @@
 A program that converts SVG images to PNG/JEPG/TIFF/TGA, written in Java using the Processing creative coding framework!
 
 Processing Libraries made by very the friendly community this program puts to use!:
-- [Drop](http://transfluxus.github.io/drop/)
-- [UiBooster](https://github.com/milchreis/UiBooster)
+- [Drop `1.0.2`](http://transfluxus.github.io/drop/)
+- [UiBooster `1.15.2`](https://github.com/milchreis/UiBooster)
 
 :)
 
