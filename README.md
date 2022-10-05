@@ -8,7 +8,7 @@ Processing Libraries made by very the friendly community this program puts to us
 :)
 
 This was probably *the second time* in my life I wrote actual software that could be used by *the common man* on a day-to-day basis.<br>
-*Funny* that I can't release it because I'm not 18. No GPLv3 yet!
+GPLv3 is the used license!
 
 # Plans
 
