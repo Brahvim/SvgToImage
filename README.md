@@ -55,7 +55,12 @@ If you export multiple times, the file names are suffixed with `(1)`, `(2)` and 
 You can also try out the "Disable style?" option, which basically, removes colors from the image (using Processing's `PShape` class's `disableStyle()` method).
 
 # Troubleshooting, and known problems:
-## The program does not start!
+
+First of all:
+Please report any problem not listed by [creating a new GitHub issue](https://github.com/Brahvim/SvgToImage/issues/new).
+**You will need a GitHub account.**
+
+### The program does not start!
 Please install Java properly.
 
 If you get this error:
@@ -63,15 +68,15 @@ If you get this error:
 
 Please see: the [Things needed before installation](https://github.com/Brahvim/SvgToImage/#things-needed-before-installation) section.
 
-If the problem is not solved, please [Create a new GitHub issue](https://github.com/Brahvim/SvgToImage/issues/new).
-**You will need a GitHub account.**
-
-## No explorer window starts up...
+### No explorer window starts up...
   This maybe because you are not using the Microsoft Windows operating system. This feature might be added someday.
 
-## A file named `svg.svg` appears in the `data` folder!
+### A file named `svg.svg` appears in the `data` folder!
   This is a rare error, but if it happens, delete `svg.svg`. In an early (un-released) developement version of SvgToImage,
   this error occured because the user would input a file not of the SVG format. In all stable versions of the program, this _generally_ should not occur.
+
+### The preview does not display / displays incorrectly!
+  Click on the preview window. This should force the program to recalculate the image display.
 
 # Plans:
 - CLI Mode! Since I provide the application as a single JAR file and not as a [Launch4j](https://launch4j.sourceforge.net/) wrapped executable, 
