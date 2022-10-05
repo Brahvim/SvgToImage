@@ -3,3 +3,4 @@ application.windows64
 .vscode
 JarBuilds/SvgToImage_v1.0.0/bin/
 JarBuilds/SvgToImage_v1.0.0/.vscode
+*.pde
