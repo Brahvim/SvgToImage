@@ -40,9 +40,18 @@ https://github.com/Brahvim/SvgToImage/tags
 - **For your convenience**, please move the folder the JAR file is in, along with all of its other contents, to a folder such as `C:/Windows/Program Files` (or whatever is equivalent on the operating system you are using), or some other folder of your choice other than your `Downloads` folder, since it _is usually_ filled with clutter.
 
 # How to use:
-Drag-and-drop an SVG file (`.svg` extension only!) onto this window:
+Drag-and-drop an SVG file (`.svg` extension only! Please rename the file to change the extension if needed.) onto this window:
 ![Drag and drop only onto this window!](https://user-images.githubusercontent.com/69293652/194111284-011cf772-ce3a-4e94-b703-44deb37cf892.png)
 
+Another window with some options will appear.
+Here, specify the width and height (resolution) of the image, and the file format you want it in.
+Click "Export and view." to export the file. The explorer program (at least on Microsoft Windows) should open automatically. A file with the same name as the one you put will appear, with a different extension.
+
+If you export multiple times, the file names are suffixed with `(1)`, `(2)` and vice-versa.
+
+**To convert another file**, simply drag-and-drop it onto the window that previews your output.
+
+You can also try out the "Disable style?" option, which basically, removes colors from the image (using Processing's `PShape` class's `disableStyle()` method).
 
 # Troubleshooting:
 
