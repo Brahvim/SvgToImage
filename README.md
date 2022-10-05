@@ -41,11 +41,12 @@ https://github.com/Brahvim/SvgToImage/tags
 
 # How to use:
 Drag-and-drop an SVG file (`.svg` extension only! Please rename the file to change the extension if needed.) onto this window:
+
 ![Drag and drop only onto this window!](https://user-images.githubusercontent.com/69293652/194111284-011cf772-ce3a-4e94-b703-44deb37cf892.png)
 
 Another window with some options will appear.
 Here, specify the width and height (resolution) of the image, and the file format you want it in.
-Click "Export and view." to export the file. The explorer program (at least on Microsoft Windows) should open automatically. A file with the same name as the one you put will appear, with a different extension.
+Click "Export and view." to export the file. The explorer program (at least on Microsoft Windows) should open automatically. A file with the same name as the one you put will appear, with a different extension, in a folder named "`data`", which is in the same folder where the program is.
 
 If you export multiple times, the file names are suffixed with `(1)`, `(2)` and vice-versa.
 
@@ -53,7 +54,24 @@ If you export multiple times, the file names are suffixed with `(1)`, `(2)` and 
 
 You can also try out the "Disable style?" option, which basically, removes colors from the image (using Processing's `PShape` class's `disableStyle()` method).
 
-# Troubleshooting:
+# Troubleshooting, and known problems:
+## The program does not start!
+Please install Java properly.
+
+If you get this error:
+!["Error: A JNI error has occured, please check your installation and try again."](https://user-images.githubusercontent.com/69293652/194116392-27bd3445-b1c0-4e2a-b6f3-62ecce1bded2.png)
+
+Please see: the [Things needed before installation](https://github.com/Brahvim/SvgToImage/#things-needed-before-installation) section.
+
+If the problem is not solved, please [Create a new GitHub issue](https://github.com/Brahvim/SvgToImage/issues/new).
+**You will need a GitHub account.**
+
+## No explorer window starts up...
+  This maybe because you are not using the Microsoft Windows operating system. This feature might be added someday.
+
+## A file named `svg.svg` appears in the `data` folder!
+  This is a rare error, but if it happens, delete `svg.svg`. In an early (un-released) developement version of SvgToImage,
+  this error occured because the user would input a file not of the SVG format. In all stable versions of the program, this _generally_ should not occur.
 
 # Plans:
 - CLI Mode! Since I provide the application as a single JAR file and not as a [Launch4j](https://launch4j.sourceforge.net/) wrapped executable, 
