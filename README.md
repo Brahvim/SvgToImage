@@ -1,4 +1,4 @@
-# SvgToImage!
+# `SvgToImage`!
 A program to convert SVG images to PNG/JPEG/TIFF/TGA, written in Java using the Processing creative coding framework!
 
 Processing Libraries made by very the friendly community this program puts to use!:
